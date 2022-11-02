@@ -1,9 +1,11 @@
 package com.example.kodlamaiodevs.enums;
 
 public enum ErrorCodeEnum {
-    USER_NOT_FOUND(1001, "Nothing was found for this id"),
+    USER_NOT_FOUND(404, "Nothing was found for this id"),
 
-    COURSE_NOT_FOUND(1001,"Nothing was found for this id"),
+    COURSE_NOT_FOUND(404,"Nothing was found for this id"),
+
+    VALIDATION_ERROR(400,"Is not Valid"),
     INTERNAL_SERVER_ERROR(1002, " blank entry is prohibited!!"),
     ;
     private int code;

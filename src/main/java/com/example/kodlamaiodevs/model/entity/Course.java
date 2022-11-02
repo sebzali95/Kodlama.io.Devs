@@ -39,4 +39,5 @@ public class Course {
 
     @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY)
     private List<User> users =new ArrayList<>();
+
 }

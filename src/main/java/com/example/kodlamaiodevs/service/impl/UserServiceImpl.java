@@ -1,5 +1,4 @@
 package com.example.kodlamaiodevs.service.impl;
-
 import com.example.kodlamaiodevs.enums.ErrorCodeEnum;
 import com.example.kodlamaiodevs.exception.CustomNotFoundException;
 import com.example.kodlamaiodevs.model.dto.UserDto;
@@ -12,7 +11,6 @@ import com.example.kodlamaiodevs.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

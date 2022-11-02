@@ -1,5 +1,4 @@
 package com.example.kodlamaiodevs.service.impl;
-
 import com.example.kodlamaiodevs.model.dto.CourseDto;
 import com.example.kodlamaiodevs.model.entity.Course;
 import com.example.kodlamaiodevs.model.mapper.CourseMapper;
@@ -7,7 +6,6 @@ import com.example.kodlamaiodevs.repository.CourseRepository;
 import com.example.kodlamaiodevs.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.stream.Collectors;
 

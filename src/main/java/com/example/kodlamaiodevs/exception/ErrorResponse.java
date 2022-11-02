@@ -2,7 +2,7 @@ package com.example.kodlamaiodevs.exception;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
+
 
 @Data
 @Builder

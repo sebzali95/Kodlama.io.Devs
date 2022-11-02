@@ -1,5 +1,4 @@
 package com.example.kodlamaiodevs.exception;
-
 import com.example.kodlamaiodevs.enums.ErrorCodeEnum;
 
 public class CustomNotFoundException extends RuntimeException{
